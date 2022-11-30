@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./Imagenes/michi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(25, 75, 150);
+}
+
+.titpag {
+  color: rgb(227, 199, 240);
+  text-decoration-color: white;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Rubik Microbe", cursive;
+}
+
+#header {
+
+  background-image: url(./Imagenes/andromeda.gif);
+  height: 50vh;
+  border-bottom-left-radius: 40% 25%;
+  border-bottom-right-radius: 40% 25%;
+}
+a:hover {
+  color: rgb(205, 203, 223);
+  filter: drop-shadow(3px 2px 20px);
+}
+
+nav {
+  text-align: center;
+  font-size: 50%;
+  font-family: "Patrick Hand", cursive;
+}
+
+.contacto {
+  background-color: rgba(191, 172, 204, 0.288);
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  align-items: flex-end;
+  padding: 1rem;
+  border-radius: 15%;
+
+}
+label {color: white;}
+
+.card {
+  margin: 2rem auto 2rem auto;
+}
+
+.titulo {
+  color: rgb(204, 230, 111);
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Marhey", cursive;
+}
+
+.titsigno {
+  color: aqua;
+  text-align: center;
+  margin: auto;
+}
+
+.principal {
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 50vw;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flotante:hover {
+  filter: none;
+}
+
+.barrio {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.facebook {
+  width: 50px;
+}
+.twitter {
+  width: 50px;
+}
+.instagram {
+  width: 50px;
+}
+.whatsapp {
+  width: 75px;
+  position: fixed;
+  bottom: 9px;
+  right: 9px;
+}
+
+.datoscreador {
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 3rem;
+  background-color: rgb(51, 85, 177);
+}
+
+.whatsapp:hover {
+  scale: 1.1;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .titpag {
+    font-size: 3rem;
+    color: white;
+  }
+  #header {
+    height: 20vh;
+    background-size: cover;
+    
+    
+  }
+  .whatsapp {
+    width: 30px;
+
+  }
+  .facebook {
+    width: 30px;
+  }
+  .twitter {
+    width: 30px;
+  }
+  .instagram {
+    width: 30px;
+  }
+  .barrio {
+    height: 50%;
+    width: 50%;
+  
+  }
+  footer {
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 5%;
+  }
+  .titulo
+  {
+    font-size: 2rem;
+  }
+  
+}
