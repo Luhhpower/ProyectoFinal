@@ -51,6 +51,14 @@ nav {
   border-radius: 15%;
 
 }
+.titcontacto{
+  text-align: center;
+  color: azure;
+  margin: 2rem;
+  font-family: "Patrick Hand", cursive;
+  text-decoration-line: underline;
+}
+
 label {color: white;}
 
 .card {
